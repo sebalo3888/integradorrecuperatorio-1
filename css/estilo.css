@@ -1,0 +1,738 @@
+
+*{margin:0;padding:0;}
+
+html{
+    background-color: #FFFACD;
+}
+
+body{
+    width: 750px; 
+    height: 750px; 
+    margin: auto;
+    background-color: #FFFACD;
+}
+
+
+header{
+    width: 750px;
+    height: 250px ;
+    background-color: teal;
+    
+}
+
+nav{
+    width: 750px;
+    height: 80px ;
+    background-color:yellowgreen;
+    background: linear-gradient(teal,#CDC9A5);
+}
+
+main{
+    width: 750px;
+    height: 400px ;
+    background-color: teal;
+    
+}
+
+footer{
+    width: 750px;
+    height: 50px ;
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+}
+
+section#banner{
+    width: 500px;
+    height: 250px;
+    float: left;
+    background-color: teal;
+}
+
+section#logo{
+    width: 250px;
+    height: 125px;
+    float: left;
+    background-color: teal;
+}
+
+ section#login{
+    width: 250px;
+    height: 125px;
+    float: left;
+    background-color: teal;
+ }
+
+aside#left {
+    width: 150px;
+    height: 400px;
+    float: left;
+    background-color: #CDC9A5;
+    font-weight: bold;
+    
+}
+
+#premios {
+    margin: 0;
+    padding: 2rem 1rem;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+article{
+    width: 500px;
+    height: 400px;
+    float: left;
+    background-color: #CDC9A5;
+    margin: 0px;
+    
+    }
+
+aside#right{
+    width: 100px;
+    height: 400px;
+    float: left;
+    background-color: #CDC9A5;
+}
+
+
+#argentina{
+    width: 100%;
+    margin-top: 10px;
+}
+
+li{
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    list-style: none;
+    
+}
+
+#pfooter{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+#redes{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+padding-right: 60px;
+float:right;
+font-size: 32px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+     }
+
+     
+#dimaria{
+    float: left;
+    height: 100%;
+    width: 30%;
+    margin-right: 15px;
+}
+
+
+#logo a{
+    display: block;
+    width: 98%;
+    height: 95%;
+    background-color: black;
+    margin-left: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    line-height: 115px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+#logo a:hover{
+    background-color: #002347;
+    font-style:oblique;
+}
+
+#login a{
+    display: block;
+    width: 98%;
+    height: 95%;
+    background-color: black;
+    margin-left: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    line-height: 115px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 10px;
+    
+}
+
+#login a:hover{
+    background-color: #002347;
+    font-style:oblique;
+}
+
+#estiloResultados  {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+#seccion {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    margin-left: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    line-height: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#titlegg {
+    padding-right: 150px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#copas {
+    width: 85%;
+    height: 85%;
+    margin-left: 30px;
+}
+
+#articlegg {
+    width: 600px;
+}
+
+#articlind {
+    width: 600px;
+}
+
+#recuerdo {
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+}
+
+#ilustracionCopa {
+    height: 85%;
+    width: 95%;
+    margin-left: 5px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+#videoyou  {
+    margin-left: 15px;
+}
+
+#imgafa {
+    width: 98%;
+    height: 85%;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#entrenamientoAfa {
+    height: 380px;
+    width: 150px;
+}
+
+#afashop {
+    width: 98%;
+    height: 55%;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#compras {
+    color: #635f5e;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#camisetasBox {
+    width: 150px;
+    height: 180px;
+    
+    
+}
+
+#descripcion {
+    width: 150px;
+    height: 300px;
+    padding: 4px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+#descripcion a {
+    text-decoration: none;
+    color:black
+}
+
+.inline-box {   
+    float: left;
+    margin-top: 15px;
+}
+.Boxes {
+    float: right; 
+    padding-left: 8px;   
+}
+.Boxes1 {
+    float: right; 
+    padding-left: 8px;     
+}
+.Boxes2 {
+    float: right;    
+    padding-left: 8px;  
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+
+
+
+
+@media all and (min-width: 600px) and (max-width:1024px){
+
+
+body{
+    width: 580px; 
+    
+}
+
+header{
+    width: 580px;
+    
+}
+
+nav{
+    width: 580px;
+    height: 80px ;
+    background-color:teal ;
+    
+}
+
+main{
+    width: 580px;
+    height: 530px ;
+    background-color: #CDC9A5;
+    
+}
+
+footer{
+    width: 580px;
+    height: 50px ;
+    background-color: black;
+    text-decoration: none;
+    color: white; 
+}
+
+section#banner{
+    width: 500px;
+    height: 250px;
+    float: left;
+    background-color: teal;
+}
+
+section#logo{
+    width: 285px;
+    height: 80px;
+    position: relative;
+    left: 5px;
+    background: linear-gradient(teal,#CDC9A5);
+}
+
+ section#login{
+    width: 290px;
+    height: 80px;
+    float: right;
+    background: linear-gradient(teal,#CDC9A5);
+ }
+
+aside#left {
+    width: 150px;
+    height: 400px;
+    float: left;
+    background-color: #CDC9A5;
+    font-weight: bold;
+    
+}
+
+#premios {
+    margin: 0;
+    padding: 2rem 1rem;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+article{
+    width: 300px;
+    height: 400px;
+    float: left;
+    background-color: #CDC9A5;
+    margin: 0px;
+    
+    
+}
+
+
+#argentina{
+    position: relative;
+    left: 25px;
+    width: 390px;
+    margin-top: 10px;
+}
+
+li{
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    list-style: none;
+    
+}
+
+#pfooter{
+    font-size: 15px;
+    
+}
+
+#redes{
+    font-size: 15px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+     }
+
+     
+#dimaria{
+    float: left;
+    height: 100%;
+    width: 30%;
+    margin-right: 15px;
+}
+
+#logo a{
+    width: 85%;
+    height: 85%;
+    margin-left: 3px;
+    line-height: 70px;
+    font-size: 18px;
+    margin-top: 5px;
+    
+}
+
+#seccion {
+    float: left;
+}
+#login a{
+    width: 85%;
+    height: 85%;
+    margin-left: 3px;
+    line-height: 70px;
+    font-size: 18px;
+    margin-top: 5px;
+
+}
+
+#estiloResultados  {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#articlind {
+    width: 400px;
+    height: 650px;
+    
+}
+
+#articlegg {
+    width: 400px;
+    height: 450px;
+    
+}
+
+#videoyou {
+    width: 95%;
+    height: 75%;
+}
+.mainIndumentaria {
+    height: 750px;
+}
+
+
+
+}
+
+@media all and (max-width: 599px){
+
+    body{
+        width: 480px; 
+        
+    }
+    
+    header{
+        width: 480px;
+        
+    }
+    
+    nav{
+        width: 480px;
+        height: 80px ;
+        background-color:teal ;
+        
+    }
+    
+    main{
+        width: 480px;
+        height: 480px ;
+        background-color: #CDC9A5;
+        
+    }
+    
+    footer{
+        width: 480px;
+        height: 50px ;
+        background-color: black;
+        text-decoration: none;
+        color: white; 
+    }
+    
+    section#banner{
+        width: 480px;
+        height: 250px;
+        float: left;
+        background-color: teal;
+    }
+    
+    section#logo{
+        width: 50%;
+        height: 80px;
+        position: relative;
+        left: 5px;
+        background: linear-gradient(teal,#CDC9A5);
+    }
+    
+     section#login{
+        width: 50%;
+        height: 80px;
+        float: right;
+        background: linear-gradient(teal,#CDC9A5);
+     }
+    
+    aside#left {
+        width: 150px;
+        height: 400px;
+        float: left;
+        background-color: #CDC9A5;
+        font-weight: bold;
+        
+    }
+    
+    #premios {
+        margin: 0;
+        padding: 2rem 1rem;
+        display: table-cell;
+        vertical-align: middle;
+    
+    }
+    
+    article{
+        width: 300px;
+        height: 400px;
+        float: left;
+        background-color: #CDC9A5;
+        margin: 0px;
+        
+    }
+    
+    aside#right{
+        width: 100px;
+        height: 0px;
+        float: left;
+        background-color: #CDC9A5;
+    }
+    
+    
+    #argentina{
+        position: relative;
+        left: 25px;
+        top: 25px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    li{
+        margin-left: 15px;
+        text-align: center;
+        float: left;
+        margin-top: 10px;
+        list-style: none;
+        
+    }
+    
+    #pfooter{
+        font-size: 15px;
+        
+    }
+    
+    #redes{
+        font-size: 15px;
+    }
+    
+    
+    
+    h3{
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 28px;
+         }
+    
+         
+    #dimaria{
+        display: none;
+        float: left;
+        height: 100%;
+        width: 30%;
+        margin-right: 15px;
+    }
+    
+    
+    #logo a{
+        width: 85%;
+        height: 85%;
+        margin-left: 3px;
+        line-height: 70px;
+        font-size: 15px;
+        margin-top: 5px;
+        
+    }
+    
+    
+    #login a{
+        width: 85%;
+        height: 85%;
+        margin-left: 3px;
+        line-height: 70px;
+        font-size: 15px;
+        margin-top: 5px;
+        
+        
+    }
+    h1{
+        font-size: 32px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+    #estiloResultados  {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    footer{
+        width: 480px;
+        height: 80px ;
+        background-color: black;
+        text-decoration: none;
+        color: white; 
+        
+    }
+
+    #seccion {
+        width: 120px;
+        height: 50px;
+        font-size: 15px;
+        
+    }
+
+    .mainIndumentaria {
+        height: 1010px;
+    }
+
+
+    .inline-box {
+        margin-right: 30px;
+    }
+
+    #articlind {
+        width: 400px;
+        height: 650px;
+        
+    }
+    
+    #articlegg {
+        width: 400px;
+        height: 400px;
+        display: flexbox;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    #videoyou {
+        width: 90%;
+        height: 70%;
+        float: left;
+        
+    }
+
+    #ilustracionCopa {
+        display: none;
+    }
+
+    #left {
+        display: none;
+    }
+    }
